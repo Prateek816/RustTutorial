@@ -38,7 +38,7 @@ impl Shape {
     }
     fn area(&self){
         match self{
-            Self::Circle(rad) =>{
+            Self::Circle(rad) =>{n  
                 println!("Circle with area: {}", rad*rad);
             }
 
