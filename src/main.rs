@@ -4,6 +4,7 @@ mod burrow;
 mod impl_associative;
 mod enums;
 mod traits;
+mod vec;
 fn main() {
     let num = 8;
     println!("Hello, world!s");
