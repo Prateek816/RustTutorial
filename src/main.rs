@@ -3,6 +3,7 @@ mod mem1;
 mod burrow;
 mod impl_associative;
 mod enums;
+mod traits;
 fn main() {
     let num = 8;
     println!("Hello, world!s");
