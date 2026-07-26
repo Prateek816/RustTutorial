@@ -1,0 +1,19 @@
+
+mod mem1;
+mod burrow;
+mod impl_associative;
+
+fn main() {
+    let num = 8;
+    println!("Hello, world!s");
+
+    //Tuple
+    let emp_info:(&str,u8) = ("Ramesh",50);
+    let emp_name = emp_info.0;
+    let emp_age = emp_info.1;
+
+    let (emp_name,emp_age) = emp_info;
+
+    let emp_test:(&str,u8);
+
+}
