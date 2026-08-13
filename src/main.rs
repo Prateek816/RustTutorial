@@ -7,6 +7,7 @@ mod traits;
 mod vec;
 mod file;
 mod slices;
+mod lifetime;
 mod test1;
 //mod design_pattern;
 fn main() {
