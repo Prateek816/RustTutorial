@@ -27,7 +27,7 @@ impl File<Open>{
 fn main(){
     let closed_file = File{state:Closed};
     let open_file = closed_file.open();
-    open_file.read()
+    open_file.read();
     open_file.write("Hello World");
     let closed_again = open_file.close();
 }

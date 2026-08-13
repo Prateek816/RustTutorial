@@ -1,0 +1,1 @@
+//closure are anonymous functions that can caputer variable from their surrounding scope
