@@ -25,7 +25,7 @@ impl BurgerBuilder {
     }
     
     pub fn build(mut self)->BurgerBuilder{
-        self.components.push(BurgerComponent::TopBun)
+        self.components.push(BurgerComponent::TopBun);
         self
     }
 }
